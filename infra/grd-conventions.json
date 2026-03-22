@@ -1,0 +1,30 @@
+{
+  "name": "grd-conventions",
+  "description": "Systematic review methodology convention lock management",
+  "version": "0.1.0",
+  "transport": "stdio",
+  "module": "grd.mcp.conventions_server",
+  "capabilities": [
+    "convention_set",
+    "convention_check",
+    "convention_diff",
+    "convention_list",
+    "convention_describe"
+  ],
+  "fields": [
+    "research_question",
+    "inclusion_criteria",
+    "exclusion_criteria",
+    "search_databases_and_dates",
+    "search_strategy",
+    "quality_assessment_tool",
+    "outcome_definitions",
+    "effect_size_measure",
+    "synthesis_method",
+    "heterogeneity_assessment",
+    "publication_bias_assessment",
+    "certainty_of_evidence",
+    "sensitivity_analysis_params",
+    "subgroup_analysis_criteria"
+  ]
+}

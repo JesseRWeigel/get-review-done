@@ -1,0 +1,17 @@
+{
+  "name": "grd-state",
+  "description": "Project state queries for Get Review Done",
+  "version": "0.1.0",
+  "transport": "stdio",
+  "module": "grd.mcp.state_server",
+  "capabilities": [
+    "get_state",
+    "advance_plan",
+    "run_health_check",
+    "get_phase_status",
+    "get_current_position",
+    "get_prisma_counts",
+    "update_prisma_counts"
+  ],
+  "health_check": "grd.mcp.state_server:health_check"
+}
