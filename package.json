@@ -1,0 +1,26 @@
+{
+  "name": "get-review-done",
+  "version": "0.1.0",
+  "description": "AI copilot for autonomous systematic reviews and meta-analyses",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JesseRWeigel/get-review-done"
+  },
+  "bin": {
+    "get-review-done": "bin/install.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "systematic-review",
+    "meta-analysis",
+    "evidence-synthesis",
+    "ai",
+    "research",
+    "autonomous",
+    "claude-code",
+    "mcp"
+  ]
+}
